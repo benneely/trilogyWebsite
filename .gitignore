@@ -5,6 +5,12 @@
 # Session Data files
 .RData
 
+#ide removal
+.idea
+
+#mac specific
+.DS_Store
+
 # Example code in package build process
 *-Ex.R
 
