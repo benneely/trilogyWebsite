@@ -10,6 +10,7 @@ docker build -t trilogywebsite .
 
 docker run -d -p 80:3838 \
 -v $(pwd):/srv/shiny-server/ \
+--restart always \
 trilogywebsite
 
 ```
