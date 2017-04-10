@@ -1,5 +1,5 @@
-#trilogyWebsite
-R Shiny app interface to the TRILOGY ACS prediction models in publication.
+# trilogyWebsite
+R Shiny app interface to the TRILOGY ACS prediction models in publication. [Demo here](http://trilogyacs-bleedingmodel-01.oit.duke.edu/).
 
 ## Docker
 Here are the commands to stand up the web app(s).
@@ -14,5 +14,3 @@ docker run -d -p 80:3838 \
 trilogywebsite
 
 ```
-
-
